@@ -18,13 +18,13 @@ module.exports = {
   onStart: async function ({ api, event }) {
     const ownerText = 
 `╭─ 👑 Oᴡɴᴇʀ Iɴғᴏ 👑 ─╮
-│ 👤 Nᴀᴍᴇ       : Ahmed sumon
-│ 🧸 Nɪᴄᴋ       : sumon
-│ 🎂 Aɢᴇ        : 19+
-│ 💘 Rᴇʟᴀᴛɪᴏɴ : ****
-│ 🎓 Pʀᴏғᴇssɪᴏɴ : Engineer 
-│ 📚 Eᴅᴜᴄᴀᴛɪᴏɴ : SSC (2024)
-│ 🏡 Lᴏᴄᴀᴛɪᴏɴ : Mymensingh 
+│ 👤 Nᴀᴍᴇ       : 𝘼𝙃𝙈𝙀𝘿 𝙎𝙐𝙈𝙊𝙉
+│ 🧸 Nɪᴄᴋ       : ⚡𝚂𝚄𝙼𝙾𝙽
+│ 🎂 Aɢᴇ        : 18+
+│ 💘 Rᴇʟᴀᴛɪᴏɴ : Sɪɴɢʟᴇ
+│ 🎓 Pʀᴏғᴇssɪᴏɴ : Sᴛᴜᴅᴇɴᴛ
+│ 📚 Eᴅᴜᴄᴀᴛɪᴏɴ : SSC - 2024
+│ 🏡 Lᴏᴄᴀᴛɪᴏɴ : 𝐌𝐘𝐌𝐄𝐍𝐒𝐈𝐍𝐆𝐇
 ├─ 🔗 Cᴏɴᴛᴀᴄᴛ ─╮
 │ 📘 Facebook  : fb.com/Ahmedsumon8790 
 │ 💬 Messenger: m.me/61576385979018 
@@ -36,7 +36,7 @@ module.exports = {
 
     if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
-    const imgLink = "https://imgur.com/a/NuW4BPo.jpeg";
+    const imgLink = "https://i.imgur.com/1G4ZhU7.jpeg";
 
     const send = () => {
       api.sendMessage(
